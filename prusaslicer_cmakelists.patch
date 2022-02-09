@@ -1,0 +1,4 @@
+508a509,511
+> if (NOT TARGET cereal::cereal)
+> 	add_library(cereal::cereal ALIAS cereal)
+> endif ()

@@ -1,0 +1,4 @@
+129c129
+< target_link_libraries(PrusaSlicer libslic3r cereal)
+---
+> target_link_libraries(PrusaSlicer libslic3r cereal::cereal)
